@@ -10,6 +10,7 @@
 
 <body>
     <h1>Home</h1>
+    <h3>{{ $appName }}</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium enim mollitia ipsa. Fuga, incidunt
         consequatur beatae voluptatum sequi voluptate similique omnis eaque? Quaerat esse iusto accusamus soluta!
         Aspernatur, unde eveniet. Vitae veniam soluta dolorum facilis totam ad reiciendis. Provident voluptatibus labore
