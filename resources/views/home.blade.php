@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+
+    {{-- <link rel="stylesheet" href="/css/app.css"> --}}
+    <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
 </head>
 
 <body>
@@ -34,6 +37,9 @@
         minima cumque ullam odio maxime consequatur culpa ratione harum placeat eum voluptas, quod eligendi, sunt, ipsum
         quidem quas adipisci omnis! Iusto molestias laboriosam eaque tempora facere repudiandae, animi, deleniti
         nesciunt optio fugit numquam?</p>
+
+    {{-- mengakses file js/app.js --}}
+    <script src="{{ asset('/js/app.js') }}"></script>
 </body>
 
 </html>
