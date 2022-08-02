@@ -7,6 +7,8 @@
    3. development using apache ```php php -S 127.0.0.1:8001 -t public```
 2. Config
    1. set timezone, change file ``` config\app.php``` change from ``` 'timezone' => 'UTC',``` to ``` 'timezone' => env('APP_TIMEZONE', 'UTC'),```, add new key in ``` .env``` key ``` APP_TIMEZONE='Asia/Jakarta'```
+3. Make Component
+   1. ``` php artisan make:component nameComponent```
 
 ## License
 

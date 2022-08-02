@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app', ['title' => 'Profile'])
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Profile</title>
-</head>
-
-<body>
-    <h3>My Profile</h3>
-    <p>Hello, my name {{ $name }}</p>
-</body>
-
-</html>
+@section('content')
+    <h3 class="text-red-400 text-2xl mb-8">Hello, my name {{ $name }}</h3>
+@endsection

@@ -3,3 +3,20 @@ body {
     color: #ffffff;
     padding: 12px;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+.navbar li a {
+    padding: 24px;
+    text-transform: uppercase;
+}
