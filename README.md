@@ -4,6 +4,9 @@
 1. Install Laravel v9.22.1
    1. default port 8000 ```php php artisan serve```
    2. using port 8001 ```php php artisan serve --port:8001```
+   3. development using apache ```php php -S 127.0.0.1:8001 -t public```
+2. Config
+   1. set timezone, change file ``` config\app.php``` change from ``` 'timezone' => 'UTC',``` to ``` 'timezone' => env('APP_TIMEZONE', 'UTC'),```, add new key in ``` .env``` key ``` APP_TIMEZONE='Asia/Jakarta'```
 
 ## License
 
