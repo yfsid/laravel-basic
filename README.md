@@ -2,8 +2,8 @@
 
 ## About Laravel
 1. Install Laravel v9.22.1
-   1. php artisan serve # default port 8000
-   2. php artisan serve --port:8001 # using port 8001
+   1. default port 8000 ```php php artisan serve```
+   2. using port 8001 ```php php artisan serve --port:8001```
 
 ## License
 
