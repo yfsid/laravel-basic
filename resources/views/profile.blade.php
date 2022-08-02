@@ -10,7 +10,7 @@
 
 <body>
     <h3>My Profile</h3>
-    <p>Hello, my name firmansyah</p>
+    <p>Hello, my name {{ $name }}</p>
 </body>
 
 </html>
