@@ -26,6 +26,7 @@ class Navbar extends Component
         $navigations = [
             'Home' => 'home',
             'Profile' => 'profile',
+            'Employees' => 'employee.index',
             'Welcome' => 'welcome'
         ];
         return view('components.navbar', compact('navigations'));

@@ -10,6 +10,7 @@
 3. Make Component
    1. ``` php artisan make:component nameComponent```
 
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

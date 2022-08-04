@@ -7,8 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inixindo | {{ $title }}</title>
 
-    {{-- <link rel="stylesheet" href="/css/app.css"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('/css/app.css') }}"> --}}
     @vite('resources/css/app.css')
 </head>
 
